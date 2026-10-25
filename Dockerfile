@@ -15,3 +15,5 @@ COPY ./app /code/app
 
 
 CMD ["fastapi", "run", "app/main.py", "--port", "80"]
+
+EXPOSE 80
